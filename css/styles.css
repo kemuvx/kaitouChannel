@@ -1,11 +1,11 @@
 
 @font-face {
-    font-family: p5font-fancy;
-    src: url(/fonts/P5Fancy.ttf);
+    font-family: p5font-fancy ;
+    src: url('P5Fancy.ttf') ;
 }
 @font-face {
-    font-family: p5font-regular;
-    src: url(/fonts/P5Regular.ttf);
+    font-family: p5font-regular ;
+    src: url('P5Regular.ttf') ;
 }
 body {
     background-color: red;
