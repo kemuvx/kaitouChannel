@@ -75,7 +75,9 @@ p {
     background-color: black; /* Green */
     border: none;
     color: white;
-    padding: 10px 32px;
+    padding: 10px 20px;
+    width: 38%;
+    height: 4%;
     text-align: center;
     font-size: 1em;
     font-family: p5font-regular;
