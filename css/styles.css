@@ -93,3 +93,16 @@ p {
     
     position: fixed;
 }
+progress {
+    width: 83%;
+    height: 115px;
+    position: relative;
+    background: rgba(255,255,255,0);
+    appearance: none;
+    transform: rotate(-2deg);
+    z-index: -1
+    
+}
+progress::-moz-progress-bar {
+    background: white;
+  }

@@ -44,8 +44,8 @@ h1 {
      black;-webkit-text-fill-color: black; 
 }
 input{
-    font-style:italic;
-    font-family: 'Times New Roman', Times, serif;
+    
+    font-family: 'Optima', Times, serif;
     width: 90%;
     font-size:4em;
     border: 3px solid white;
@@ -53,8 +53,7 @@ input{
     color:white;
 }
 textarea {
-    font-style:italic;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Optima', Times, serif;
     width: 90%;
     font-size:4em;
     border: 3px solid white;
