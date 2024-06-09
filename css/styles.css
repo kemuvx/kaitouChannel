@@ -103,7 +103,7 @@ progress {
     z-index: -1
     
 }
-progress::-moz-progress-bar {
+  progress::-moz-progress-bar {
     background: white;
   }
   progress::-webkit-progress-value {
@@ -113,3 +113,18 @@ progress::-moz-progress-bar {
   progress::-webkit-progress-bar {
     background: black;
   }
+.container {
+    position:relative;
+    text-align: center;
+    color:white;
+    bottom:-1000px;
+    
+}
+.centered-text {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 4.5em;
+    font-family:"p5font-regular";
+}

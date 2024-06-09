@@ -31,22 +31,34 @@
     <span style="color: gold; font-family: Anton; position:fixed;top:40%;right:70px;">
         <i>
             <span style="font-size: 5em;letter-spacing: 8px">YES </span>
-            <span style=" font-size: 10em; letter-spacing: 4px;"> 6.7</span>
+            <span style=" font-size: 10em; letter-spacing: 4px;" id="percentBar">0</span>
             <span style=" font-size: 4em;">%</span>
         </i> 
     </span>
    
-        <progress class="progress-bar"
-        value="90"max="100" style="top:49%;margin-right: 30px;"></progress>
- 
-    
+        <progress class="progress-bar" id="progress-bar"
+        value="0"max="100" style="top:49%;margin-right: 30px;"></progress>
 </div>
   
 <br><br>
 
 
+<div class="container" style="left:-270px" onclick="changePercentNo()">
+    <img src="/sprites/b-left.png" style="width: 35%;">
+    <span class="centered-text">NO</span>
+</div>
+
+<div class="container" stlye="right:-270px" onclick="changePercentYes()">
+    <img src="/sprites/b-right.png" style="width: 35%;">
+    <span class="centered-text">YES</span>
+</div>
+
+
 <a href="./request.html">
     <button type="button" class="request-button">Request</button>
 </a>
+
+<script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>
