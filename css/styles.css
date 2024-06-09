@@ -113,18 +113,3 @@ progress {
   progress::-webkit-progress-bar {
     background: black;
   }
-.container {
-    position:relative;
-    text-align: center;
-    color:white;
-    bottom:-900px;
-    
-}
-.centered-text {
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    font-size: 4.5em;
-    font-family:"p5font-regular";
-}
