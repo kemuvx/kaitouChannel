@@ -10,6 +10,10 @@
     font-family: Anton;
     src: url('./Anton.ttf')
 }
+@font-face {
+    font-family: Optima;
+    src: url('./Optima.ttf');
+}
 body {
     background-color: red;
     text-align: center;
@@ -60,7 +64,7 @@ textarea {
 .sumbit-button {
     position:absolute;
     background-color: black;
-    top:89%;
+    top: 90%;
     right: 0%;
     color: white;
     padding: 60px 0px;
@@ -70,6 +74,4 @@ textarea {
     font-family: p5font-regular;
     letter-spacing: -8px;
     word-spacing: 25px;
-
-
 }
